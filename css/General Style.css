@@ -1,0 +1,58 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+nav{
+    height: 89px;
+}
+.Título-Página{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+main{
+    margin-left: 60px; 
+    margin-right: 60px; 
+    margin-top: 10px;
+}
+
+.Info-Acord{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.IMG-Acord{
+    width: 20%;
+    object-fit: contain;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.IMG-Acord img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+  @supports(object-fit: cover){
+      .IMG-Acord img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+
+.Text-Acord{
+    display: flex;
+    width: 70%;
+    margin: 15px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+}
