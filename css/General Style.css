@@ -13,9 +13,32 @@ nav{
 }
 
 main{
-    margin-left: 60px; 
-    margin-right: 60px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
     margin-top: 10px;
+}
+
+.Logo{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+}
+
+.ITR{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NombreITR{
+    color:rgba(247, 247, 247, 0.829);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
 }
 
 .Info-Acord{
