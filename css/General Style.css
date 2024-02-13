@@ -50,10 +50,10 @@ main{
 }
 
 .IMG-Acord{
-    width: 20%;
+    width: 30%;
     object-fit: contain;
     border-radius: 25px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .IMG-Acord img{
