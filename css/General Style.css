@@ -12,6 +12,10 @@ nav{
     margin: 20px;
 }
 
+p{
+    text-align: justify;
+}
+
 main{
     margin-left: 20px; 
     margin-right: 20px; 
@@ -78,4 +82,9 @@ main{
     justify-content: center;
     align-items: center;
    
+}
+
+.Empresas-Software{
+    margin: 50px;
+    font-size: 25px;
 }
