@@ -1,42 +1,43 @@
-*{
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
 }
 
-nav{
+nav {
     height: 89px;
 }
-.Título-Página{
+
+.Título-Página {
     text-align: center;
     font-weight: bold;
     margin: 20px;
 }
 
-p{
+p {
     text-align: justify;
 }
 
-main{
-    margin-left: 20px; 
-    margin-right: 20px; 
+main {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
 }
 
-.Logo{
+.Logo {
     border-radius: 50%;
     width: 85px;
     height: 85px;
     margin: 10px;
 }
 
-.ITR{
+.ITR {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.NombreITR{
-    color:rgba(247, 247, 247, 0.829);
+.NombreITR {
+    color: rgba(247, 247, 247, 0.829);
     text-decoration: none;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -45,35 +46,36 @@ main{
     margin: 10px;
 }
 
-.Info-Acord{
+.Info-Acord {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 
 }
 
-.IMG-Acord{
+.IMG-Acord {
     width: 30%;
     object-fit: contain;
     border-radius: 25px;
     margin: 10px;
 }
 
-.IMG-Acord img{
+.IMG-Acord img {
     width: 100%;
     height: auto;
     border-radius: 25px;
-  }
-  @supports(object-fit: cover){
-      .IMG-Acord img{
+}
+
+@supports(object-fit: cover) {
+    .IMG-Acord img {
         height: 100%;
         object-fit: cover;
         object-position: center center;
-      }
-  }
+    }
+}
 
-.Text-Acord{
+.Text-Acord {
     display: flex;
     width: 70%;
     margin: 15px;
@@ -81,10 +83,42 @@ main{
     align-content: center;
     justify-content: center;
     align-items: center;
-   
+
 }
 
-.Empresas-Software{
+.Empresas-Software {
     margin: 50px;
     font-size: 25px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(43, 48, 53);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h6{
+    color: rgba(247, 247, 247, 0.705);
+    margin: 20px, 10px;
+}
+
+footer span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px, 10px;
+}
+
+footer strong{
+    color: rgb(247, 247, 247);
 }
